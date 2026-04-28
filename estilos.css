@@ -1,0 +1,57 @@
+/* Estilos personalizados */
+body {
+    background-color: #0076ec;
+}
+
+header.text-center.mb-5 {
+    background-color: #f4f4f4 !important; /* Gris suave */
+    border: 2px solid #e0e0e0 !important;
+    border-radius: 12px !important;
+    padding: 30px 20px !important;
+    margin-top: 20px !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+}
+
+/* Forzamos el color del h1 aunque tenga clases de Bootstrap */
+header.text-center.mb-5 h1 {
+    color: #1ce6668b !important; /* Dorado (cambia a #198754 para verde) */
+    margin-bottom: 5px !important;
+}
+
+/* Forzamos el color del párrafo */
+header.text-center.mb-5 p {
+    color: #666666 !important;
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+/* Transición suave para las filas */
+#tablaPrestamos tr {
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para el estado devuelto */
+.badge-devuelto {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-pendiente {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* Animación simple al añadir */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animar-fila {
+    animation: fadeIn 0.4s ease forwards;
+}
