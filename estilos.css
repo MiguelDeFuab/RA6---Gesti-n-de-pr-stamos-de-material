@@ -1,6 +1,6 @@
 /* Estilos personalizados */
 body {
-    background-color: #0076ec;
+    background-color: #0076ec34;
 }
 
 header.text-center.mb-5 {
@@ -14,13 +14,13 @@ header.text-center.mb-5 {
 
 /* Forzamos el color del h1 aunque tenga clases de Bootstrap */
 header.text-center.mb-5 h1 {
-    color: #1ce6668b !important; /* Dorado (cambia a #198754 para verde) */
+    color: #198754 !important; /* Dorado (cambia a #198754 para verde) */
     margin-bottom: 5px !important;
 }
 
 /* Forzamos el color del párrafo */
 header.text-center.mb-5 p {
-    color: #666666 !important;
+    color: #ec820a8e !important;
 }
 
 .table th {
